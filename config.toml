@@ -1,6 +1,7 @@
 baseURL = "http://nats.io/"
 languageCode = "en-us"
 title = "NATS - Cloud Native, Open Source, High Performance Messaging"
+DefaultContentLanguage = "en"
 
 pygmentsCodeFences = "true"
 pygmentsUseClasses = "true"
@@ -18,115 +19,115 @@ noCategoryLink = true
 githubBaseUrl = "https://github.com/nats-io/nats-site/edit/master/content"
 
 [[menu.main]]
-name = "About"
-weight = 1
-identifier = "about"
-url = "/about"
+    name = "About"
+    weight = 1
+    identifier = "about"
+    url = "/about"
 
 [[menu.main]]
-name = "Download"
-weight = 2
-identifier = "download"
-url = "/download"
+    name = "Download"
+    weight = 2
+    identifier = "download"
+    url = "/download"
 
 [[menu.main]]
-name = "NATS"
-weight = 1
-identifier = "nats"
-parent = "download"
+    name = "NATS"
+    weight = 1
+    identifier = "nats"
+    parent = "download"
 
 [[menu.main]]
-name = "Server"
-weight = 1
-identifier = "nats-server"
-parent = "nats"
+    name = "Server"
+    weight = 1
+    identifier = "nats-server"
+    parent = "nats"
 
 [[menu.main]]
-name = "Synadia Supported Clients"
-weight = 2
-identifier = "nats-clients"
-parent = "nats"
+    name = "Synadia Supported Clients"
+    weight = 2
+    identifier = "nats-clients"
+    parent = "nats"
 
 [[menu.main]]
-name = "Community Clients"
-weight = 3
-identifier = "nats-community"
-parent = "nats"
+    name = "Community Clients"
+    weight = 3
+    identifier = "nats-community"
+    parent = "nats"
 
 [[menu.main]]
-name = "NATS Streaming"
-weight = 0
-identifier = "nats-streaming"
-parent = "download"
+    name = "NATS Streaming"
+    weight = 0
+    identifier = "nats-streaming"
+    parent = "download"
 
 [[menu.main]]
-name = "Server"
-weight = 1
-identifier = "streaming-server"
-parent = "nats-streaming"
+    name = "Server"
+    weight = 1
+    identifier = "streaming-server"
+    parent = "nats-streaming"
 
 [[menu.main]]
-name = "Synadia Supported Clients"
-weight = 2
-identifier = "streaming-clients"
-parent = "nats-streaming"
+    name = "Synadia Supported Clients"
+    weight = 2
+    identifier = "streaming-clients"
+    parent = "nats-streaming"
 
 [[menu.main]]
-name = "Community Clients"
-weight = 3
-identifier = "streaming-community"
-parent = "nats-streaming"
+    name = "Community Clients"
+    weight = 3
+    identifier = "streaming-community"
+    parent = "nats-streaming"
 
 [[menu.main]]
-name = "Documentation"
-weight = 3
-identifier = "documentation"
-url = "/documentation"
+    name = "Documentation"
+    weight = 3
+    identifier = "documentation"
+    url = "/documentation"
 
 [[menu.main]]
-name = "Getting Started"
-weight = 1
-parent = "documentation"
+    name = "Getting Started"
+    weight = 1
+    parent = "documentation"
 
 [[menu.main]]
-name = "Concepts"
-weight = 2
-parent = "documentation"
+    name = "Concepts"
+    weight = 2
+    parent = "documentation"
 
 [[menu.main]]
-name = "Internals"
-weight = 3
-parent = "documentation"
+    name = "Internals"
+    weight = 3
+    parent = "documentation"
 
 [[menu.main]]
-name = "Server"
-weight = 4
-parent = "documentation"
+    name = "Server"
+    weight = 4
+    parent = "documentation"
 
 [[menu.main]]
-name = "Streaming"
-weight = 5
-parent = "documentation"
+    name = "Streaming"
+    weight = 5
+    parent = "documentation"
 
 [[menu.main]]
-name = "Tutorials"
-weight = 6
-parent = "documentation"
+    name = "Tutorials"
+    weight = 6
+    parent = "documentation"
 
 [[menu.main]]
-name = "Support"
-weight = 4
-identifier = "support"
-url = "/support"
+    name = "Support"
+    weight = 4
+    identifier = "support"
+    url = "/support"
 
 [[menu.main]]
-name = "Community"
-weight = 5
-identifier = "community"
-url = "/community"
+    name = "Community"
+    weight = 5
+    identifier = "community"
+    url = "/community"
 
 [[menu.main]]
-name = "Blog"
-weight = 6
-identifier = "blog"
-url = "/blog"
+    name = "Blog"
+    weight = 6
+    identifier = "blog"
+    url = "/blog"
